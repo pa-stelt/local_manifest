@@ -38,4 +38,7 @@
 	<remove-project name="proprietary_vendor_qcom_common" />
 	<project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="pa-stelt" />
 
+	<remove-project name="AOSPA/android_frameworks_base" />
+	<project path="frameworks/base" name="android_frameworks_base" remote="pa-stelt" />
+
 </manifest>
