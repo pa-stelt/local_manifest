@@ -19,17 +19,6 @@
 
 	<project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" remote="gitlab" revision="twelve"/>
 
-        <remove-project name="AOSPA/android_build" />
-        <project path="build/make" name="android_build" remote="pa-stelt" >
-           <copyfile src="core/root.mk" dest="Makefile" />
-           <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-           <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-           <linkfile src="core" dest="build/core" />
-    	   <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    	   <linkfile src="target" dest="build/target" />
-    	   <linkfile src="tools" dest="build/tools" />
-        </project>
-
 	<remove-project name="AOSPA/android_frameworks_base" />
 	<project path="frameworks/base" name="android_frameworks_base" remote="pa-stelt" />
 
