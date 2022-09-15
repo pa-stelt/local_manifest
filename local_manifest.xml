@@ -19,7 +19,4 @@
 
 	<project path="vendor/xiaomi/miatoll-gcam" name="LeddaZ/vendor_xiaomi_miatoll-gcam" remote="gitlab" revision="twelve"/>
 
-	<remove-project name="AOSPA/android_frameworks_base" />
-	<project path="frameworks/base" name="android_frameworks_base" remote="pa-stelt" />
-
 </manifest>
