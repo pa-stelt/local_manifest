@@ -12,15 +12,15 @@
 	<project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="pa-stelt"  />
 
 
-        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="topaz-855"/>    	
-        <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="topaz-SN100X-legacy">
+        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" remote="aospa" revision="topaz-855"/>    	
+        <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="aospa" revision="topaz-SN100X-legacy">
           <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc-vendor-product.mk" src="nfc_vendor_product.mk"/>
         </project>
-        <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="topaz-SN100X-legacy"/>
+        <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="topaz-SN100X-legacy"/>
 	
-	<project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="topaz-855"/>
-        <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="topaz-855"/>
-        <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="topaz-855"/>
+	<project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aospa" revision="topaz-855"/>
+        <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="aospa" revision="topaz-855"/>
+        <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="aospa" revision="topaz-855"/>
 
  	<!-- GCC -->
   	<project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9"  clone-depth="1" remote="github" revision="lineage-19.1" />
