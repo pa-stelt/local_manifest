@@ -18,14 +18,11 @@
         </project>
         <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="topaz-SN100X-legacy"/>
 	
-	<project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="aospa" revision="topaz-855"/>
+	<project path="hardware/qcom/display" name="hardware_qcom_display" remote="lighthouse" revision="t-855"/>
         <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="aospa" revision="topaz-855"/>
         <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="aospa" revision="topaz-855"/>
 
  	<!-- GCC -->
-  	<project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9"  clone-depth="1" remote="github" revision="lineage-19.1" />
-  	<project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9"  clone-depth="1" remote="github" revision="lineage-19.1" />
-  	<project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9"  clone-depth="1" remote="github" revision="lineage-19.1" />
   	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="github" revision="lineage-19.1" />
   	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="github" revision="lineage-19.1" />
   	<project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" clone-depth="1" remote="github" revision="lineage-19.1" />
